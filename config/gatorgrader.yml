@@ -1,0 +1,18 @@
+---
+name: cmpsc-100-spring-2019-practical6
+break: true
+indent: 4
+---
+src/main:
+    java:
+        practicalsix/RollDice.java:
+            --single 7 --language Java
+            --multi 2 --language Java
+            --fragment "int" --count 2
+            --fragment "Math.pow" --count 1
+            --fragment "Math.max" --count 1
+            --fragment "Math.min" --count 1
+            --fragment "System.out.println(" --count 6
+--commits 1
+
+--command "gradle -q --console plain run" --executes
