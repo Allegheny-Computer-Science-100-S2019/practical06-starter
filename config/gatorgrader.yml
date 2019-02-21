@@ -13,6 +13,6 @@ src/main:
             --fragment "Math.max" --count 1
             --fragment "Math.min" --count 1
             --fragment "System.out.println(" --count 6
---commits 1
+--commits 3
 
 --command "gradle -q --console plain run" --executes
